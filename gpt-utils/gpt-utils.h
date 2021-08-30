@@ -152,7 +152,7 @@ extern "C" {
 	"splash", \
 	"bootlocker"
 
-#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "system", "vendor", "odm", "modem", "bluetooth"
+#define AB_PTN_LIST PTN_SWAP_LIST, "boot", "product", "system", "system_dlkm", "system_ext", "vendor", "vendor_dlkm", "odm", "modem", "bluetooth"
 #define BOOT_DEV_DIR    "/dev/block/bootdevice/by-name"
 
 /******************************************************************************
